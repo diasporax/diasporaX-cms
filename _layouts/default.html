@@ -87,7 +87,7 @@
               <h3 class="is-uppercase has-text-weight-bold is-italic is-size-3">Upcoming Events</h3>
               <div class="content">
                 {% if page.show_upcoming_events %}
-                  <ul>
+                  <ul class="is-inline-block-mobile">
                     {% for item in page.upcoming_events %}
                     <li>
                       <h4 class="has-text-weight-bold is-size-5">{{ item.upcoming_event_date | date: "%B %-d" }} {% if item.upcoming_event_venue %}at {{ item.upcoming_event_venue }}{% else %}- Location TBD{% endif %}</h4>
