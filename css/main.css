@@ -115,6 +115,10 @@ body {
   font-family: "acumin-pro-condensed",sans-serif !important;
 }
 
+margin-zero-auto {
+  margin: 0 auto;
+}
+
 .navbar-item img {
   max-height: 4.75rem;
 }
@@ -151,24 +155,8 @@ a.has-text-white:hover {
   color: var(--secondary) !important;
 }
 
-.navbar-menu.is-active {
-  position: absolute;
-  width: 100%;
-}
-
-a.navbar-item {
-  color: white;
-  text-decoration: underline;
-}
-
-a.navbar-item:hover {
-  background: transparent;
-  text-decoration: none;
-  color: var(--dark);
-}
-
-.is-active a.navbar-item {
-  color: var(--dark);
+.navbar-brand .navbar-item {
+  padding-top: 1.5rem;
 }
 
 .about-latinx {
@@ -285,19 +273,6 @@ input[type="email"]:valid ~ .icon.is-right svg {
     height: 163px;
   }
 }
-
-@media only screen and (max-width: 1087px) {
-  .navbar-item img {
-    max-height: 2.25rem;
-  }
-}
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
