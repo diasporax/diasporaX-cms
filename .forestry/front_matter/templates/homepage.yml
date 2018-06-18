@@ -7,6 +7,12 @@ fields:
   type: text
   hidden: true
   default: home
+- type: text
+  name: title_tag
+  label: Title tag for the page
+  description: This title will be featured on the browser's tab.
+  hidden: true
+  default: Advance LatinX Culture
 - name: show_next_event
   label: Display Next DiasporaX Event
   type: boolean
