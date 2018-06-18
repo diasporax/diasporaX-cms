@@ -6,7 +6,7 @@ fields:
   label: Layout
   type: text
   hidden: true
-  default: default
+  default: home
 - name: show_next_event
   label: Display Next DiasporaX Event
   type: boolean
