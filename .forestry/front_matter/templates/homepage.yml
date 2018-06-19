@@ -13,6 +13,11 @@ fields:
   description: This title will be featured on the browser's tab.
   hidden: true
   default: Advance LatinX Culture
+- type: boolean
+  name: nofollow_tag
+  label: No Follow Tag
+  description: When enabled, Robots won't be able to scrape the page.
+  hidden: true
 - name: show_next_event
   label: Display Next DiasporaX Event
   type: boolean
